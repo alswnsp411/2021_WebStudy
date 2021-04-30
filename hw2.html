@@ -1,0 +1,56 @@
+<!DPCTYPE html>
+<html>
+
+<head>
+  <title>2주차 과제</title>
+</head>
+
+<body>
+  <header>
+    <h1>2주차 과제</h1>
+    <hr>
+  </header>
+
+  <main>
+    <figure>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ufX7VluncTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </figure>
+
+    <form action="submission.html" method="POST">
+      <h2><5가지 이상의 폼을 이용해보아요!!></h2>
+
+      <section class="name">
+        <label for="name">당신의 이름은?:</label>
+        <input type="text" name="name" id="name">
+      </section>
+
+      <section class="hide">
+        <label for="hide">여기 입력하는 건 아무도 못봐요!</label>
+        <input type="password" name="hide" id="hide" required>
+      </section>
+
+      <section class="date">
+        <label for="year">날짜를 선택할 수 있어요:</label>
+        <input type="number" name="date" id="year" value="연도" min="1990" max="2021" step="1">
+        <label for="month">-</label>
+        <input type="number" name="date" id="month" value="월" min="1" max="12" step="1">
+        <label for="day">-</label>
+        <input type="number" name="date" id="day" value="일" min="1" max="31" step="1">
+      </section>
+
+      <section class="phonenum">
+        <label for="phonenum">Phone num:</label>
+        <input type="text" name="phonenum" id="phonenum">
+      </section>
+
+      <section class="Github">
+        <label for="Github">GitHub url(나는 타입이 url이에요):</label>
+        <input type="url" name="Github" id="Github">
+      </section>
+
+      <section class="send">
+        <input type="submit" value="Send">
+      </section>
+    </form>
+  </main>
+</html>
