@@ -1,0 +1,68 @@
+.nav{
+    height: 100%;
+    width: 170px;
+    position: fixed;  /*스크롤해도 안움직임*/
+    z-index:1;
+    top:0;
+    left:0;
+    background: black;
+    overflow-x: hidden; /*?*/
+    padding-top: 20px;
+}
+
+.nav-home a{
+    padding: 6px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    display: block;
+}
+
+.nav-item a{
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    display: block;
+}
+
+.item-comment{
+    background:rgb(66, 74, 100);
+}
+
+/*마우스 오버했을 때 링크 상태*/
+.nav-home a:hover{
+    color: rgb(170, 126, 126);
+}
+
+.nav-item a:hover{
+    color: rgb(170, 126, 126);
+}
+
+/*클릭했을 때 링크 상태*/
+.nav-item a:active{
+    background:rgb(201, 212, 248);
+}
+
+.main{
+    margin-left: 160px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+h3{
+    color:rgb(66, 74, 100);
+}
+
+.page{
+    padding: 80px;
+}
+
+textarea{
+    box-sizing: border-box;
+    border: solid 2px rgb(224, 120, 50);
+    border-radius: 5px;
+    font-size: 16px;
+    resize: both;
+}
+
